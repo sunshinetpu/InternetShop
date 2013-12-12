@@ -1,0 +1,2 @@
+BgColorHeader: 0 49 98
+Footer: 184 27 73

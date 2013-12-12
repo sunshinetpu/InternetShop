@@ -1,0 +1,250 @@
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+	list-style: none outside none;
+}
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+	font-size:0.825em;
+	color:#fcfcfc;
+	font-family: "Chewy", cursive;
+	background-color:rgb(184,27,73);
+	margin: 0px;
+	padding: 0px;
+}
+#bigHeader{
+	background-image: url(images/bigHeader.png);
+	height:363px;
+	display: block;
+}
+#bigContent{
+
+	background-color: white;
+	color: black;
+}
+#bigFooter{
+	background-image: url(images/bgFooter.png);
+	height:232px;
+}
+header {
+	width: 1150px;
+	height:300px;
+	position: relative;
+	margin: 0px auto;
+}
+#menu {
+	position: absolute;
+	height: 30px;
+	width: 600px;
+	color: white;
+	display: block;
+	top: 10px;
+	right: 300px;
+	text-align: center;
+	background-color:rgb(119,0,0);
+}
+
+#menu a {
+	margin-right: 6px;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	font-family: "Chewy", cursive;
+	text-shadow: -1px 2px 2px rgb(160,40,46);
+	transition: color 0.5s linear 0s
+}
+#menu a:hover {
+	color: yellow;
+}
+#logo {
+	display: block;
+	width:240px;
+	height:260px;
+	padding-top: 60px;
+}
+#myCart {
+	width:240px;
+	font-family: "Chewy", cursive;
+	text-shadow: -1px 2px 2px rgb(160,40,46);
+	color: red;
+	font-size:25px;
+
+}
+#myCart p {
+	
+	transition: color 0.1s linear 0s;
+	float:right;
+	margin-right:20px;
+	margin-top:30px;
+}
+#banner {
+	position: absolute;
+	top: 60px;
+	left: 240px;
+	background-image:url("images/banner1.png");
+	width:600px;
+	height:250px;
+}
+#jakajat {
+	display: block;
+	width:300px;
+	position: absolute;
+	top: 70px;
+	right:0px;
+	height:230px;
+}
+footer {
+	width: 1150px;
+	height:100px;
+	position: relative;
+	margin: 0px auto;
+	padding-top: 40px;
+}
+footer p {
+	color: white;
+	float:right;
+}
+#pay{
+	width:400px;
+}
+#content{
+	width: 1150px;
+	position: relative;
+	margin: 0px auto;
+}
+.pizza {
+	background-color:white;
+	width:370px;
+
+	float:left;
+	margin: 2px;
+
+}
+
+.piz_img{
+	padding-left:60px;
+	padding-right: 60px;
+}
+#clear{
+	clear:both;
+}
+.piz_name{
+	height: 40px;
+	font-size: 40px;
+	color: rgb(198,0,99);
+	text-align: center;
+	font-weight: bold;
+	font-family: inherit;
+	font-style: inherit;
+}
+.piz_discription{
+	color: rgb(198,0,99);
+	font-family: inherit;
+	height: 140px;
+	margin-top: 10px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+.piz_price {
+	width: 150px;
+	color: rgb(198,0,99);
+	font-size: 28px;
+	font-weight: bold;
+	font-family: inherit;
+	text-align: center;
+	float: left;
+}
+#card {
+	position: fixed;
+	height:30px;
+	width:50px;
+	left:500px;
+	top: 500px;
+	display:block;
+	background-color:yellow;
+}
+.order_details_view{
+	display: none;
+}
+#main {
+	width:1148px;
+	float: left;
+}
+#right_side {
+	width:1px;
+	height:550px;
+	float:left;
+}
+.col_name, .col_price{
+	width: 100px;
+}
+.col_description {
+	width: 400px;
+}
+.col_action {
+	width: 200px;
+}
+.order_name {
+	width: 150px;
+}
+.order_telephone{
+	width: 100px;
+}
+.order_address{
+	width: 200px;
+}
+.order_time{
+	width: 150px;
+}
+.order_comment{
+	width: 250px;
+}
+.order_pay{
+	width: 20px;
+}
+.order_action{
+	width: 125px;
+}
+#user_logout{
+	width: 250px;
+	height:30px;
+	position: absolute;
+	top:10px;
+	right:25px;
+}
+#user_logout a{	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	font-family: "Chewy", cursive;
+	text-shadow: -1px 2px 2px rgb(160,40,46);
+	transition: color 0.5s linear 0s
+}
+#user_logout a:hover {
+	color: yellow;
+}
+
+#time_order{
+	float:right;
+}
+#cart_table {
+	text-align: center;
+	background-color:rgb(220,41,86);
+	border-radius: 20px;
+	color:white;
+	font-size:16px;
+}
+.h2_delivery{
+	margin-top:20px;
+	font-size:25px;
+	font-family: "Chewy", cursive;
+	color: rgb(184,27,73);
+}
+#time_work ul li {
+	font-size:20px;
+}
+#aboutUs{
+	color: rgb(184,27,73);
+	font-size:20px;
+}
